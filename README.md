@@ -51,14 +51,29 @@
 
 ## 安装
 
-### 方式一：Clone 到 Skills 目录（推荐）
+### 方式一：对话安装（最简单）
+
+直接对 Claude 说：
+
+```
+安装 github-wechat-publisher skill
+```
+
+Claude 会自动执行：
+1. Clone 到 `~/.agents/skills/` 目录
+2. 安装依赖 `markdown`、`requests`
+3. 运行配置向导
+
+### 方式二：命令行安装
 
 ```bash
 cd ~/.agents/skills/
 git clone https://github.com/AIWhatYouNeed/github-wechat-publisher.git
+cd github-wechat-publisher
+pip3 install markdown requests
 ```
 
-### 方式二：Clone 到自定义目录
+### 方式三：手动安装
 
 ```bash
 git clone https://github.com/AIWhatYouNeed/github-wechat-publisher.git
