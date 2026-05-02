@@ -1,0 +1,16 @@
+{
+  "github": {
+    "token": "",
+    "repo": "",
+    "branch": "main"
+  },
+  "wechat": {
+    "api_key": "",
+    "appid": "",
+    "author": "AI自动生成",
+    "theme": "sspai"
+  },
+  "xiaohu_format": {
+    "skill_path": "/root/.agents/skills/xiaohu-wechat-format"
+  }
+}

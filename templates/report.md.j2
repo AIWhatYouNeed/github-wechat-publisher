@@ -1,0 +1,38 @@
+# {{ title }}
+
+> 📅 {{ date }} | 数据来源: {{ source }}
+
+## 🔍 趋势洞察
+
+{{ insight }}
+
+## 📊 排行榜
+
+| 排名 | 名称 | 描述 | 热度 |
+|:----:|------|------|:----:|
+{% for item in items %}
+| {{ loop.index }} | [{{ item.name }}]({{ item.url }}) | {{ item.description }} | {{ item.score }} |
+{% endfor %}
+
+## 📌 详情
+
+{% for item in items %}
+### {{ loop.index }}. {{ item.name }}
+
+{% if item.link %}
+- 🔗 **链接**: [{{ item.link }}]({{ item.link }})
+{% endif %}
+{% if item.author %}
+- 👤 **作者**: {{ item.author }}
+{% endif %}
+{% if item.date %}
+- 📅 **日期**: {{ item.date }}
+{% endif %}
+
+{{ item.summary }}
+
+{% endfor %}
+
+---
+
+*本报告由自动化任务生成*
