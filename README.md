@@ -53,10 +53,10 @@
 
 ### 方式一：对话安装（最简单）
 
-直接对 Claude 说：
+对 Claude 说（需提供仓库地址）：
 
 ```
-安装 github-wechat-publisher skill
+安装 github-wechat-publisher skill: https://github.com/AIWhatYouNeed/github-wechat-publisher
 ```
 
 Claude 会自动执行：
