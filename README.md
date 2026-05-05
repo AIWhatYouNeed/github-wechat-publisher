@@ -100,7 +100,7 @@ python3 scripts/setup.py
 | GitHub Token | `GITHUB_TOKEN` | 推送文件到仓库 | [GitHub Settings](https://github.com/settings/tokens)，需 `repo` 权限 |
 | GitHub 仓库 | `GITHUB_REPO` | 备份目标仓库 | 格式：`owner/repo-name` |
 | 微信 API Key | `WECHAT_API_KEY` | wx.limyai.com API Key | 在 [wx.limyai.com](https://wx.limyai.com) 授权获取 |
-| 微信 AppID | `WECHAT_APPID` | 公众号 AppID | 配置时自动列出已授权公众号 |
+| 微信 AppID | `WECHAT_APPID` | 公众号 AppID | 配置时自动列出已授权公众号，若没列出，请前往[微信公众平台](https://mp.weixin.qq.com/?spm=5176.28103460.0.0.788b2988y6yh0I) 获取AppID|
 | 排版主题 | `WECHAT_THEME` | 微信排版主题 | 默认 `sspai`（少数派风格） |
 
 ### 配置文件示例
