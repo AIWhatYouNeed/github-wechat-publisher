@@ -7,6 +7,11 @@
 
 一个用于 Claude Code 的自动化发布工具，接收 Markdown 内容，自动完成 GitHub 推送备份和微信公众号排版发布。
 
+生成效果可以查看公众号日报文章：
+
+<img width="430" height="430" alt="alwhatyouneed code" src="https://github.com/user-attachments/assets/06ed1b3e-0122-40ba-b1cf-ac3ae7d16b70" />
+
+
 ---
 
 ## 功能特性
